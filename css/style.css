@@ -278,3 +278,38 @@ header .hero {
   color: #757575;
   font-size: 16px;
 }
+
+
+
+
+
+
+
+
+
+
+/* -----Focus---- */
+.focus{
+  margin-top: 116px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.focus h6{
+  font-size: 50px;
+  color: var(--secondaryColor);
+  font-weight: bold;
+}
+
+.focus p{
+  color: #00000080;
+  font-size: 14px;
+}
+
+.focus img{
+  border-radius: 48px;
+}
