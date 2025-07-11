@@ -1,5 +1,96 @@
-*{
+/* -------Google Fonts------ */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --primaryColor: #4e47ff;
+  --secondaryColor: #252432;
+  --hoverColor: #9b177e;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.primary-btn {
+  width: fit-content;
+  background-color: var(--primaryColor);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 36px;
+  border-radius: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+  box-shadow: 3px 3px 30px var(--primaryColor);
+}
+
+.primary-btn:hover {
+  background-color: var(--hoverColor);
+  scale: 1.05;
+  box-shadow: 0px 0px 30px var(--hoverColor);
+}
+
+/* -----------------Header-------------- */
+
+header {
+  height: 600px;
+  background-image: url(../Assets/Hero-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 120px;
+}
+
+header nav {
+  height: 100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a.logo {
+  font-size: 34px;
+  font-weight: bold;
+  color: var(--primaryColor);
+}
+
+header .hero {
+  max-width: 900px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 37px;
+}
+
+.hero h6 {
+  font-size: 65px;
+  font-weight: bold;
+  color: var(--secondaryColor);
+} 
