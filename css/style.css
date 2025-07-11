@@ -389,3 +389,55 @@ header .hero {
   outline: none;
   width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------Footer--------- */
+footer{
+  margin-top: 116px;
+  width: 100%;
+  padding: 30px 20px;
+}
+.footer{
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-logo{
+  font-size: 100px;
+  font-weight: bold;
+  color: var(--primaryColor);
+}
+
+.footer p{
+  color: #8987A1;
+  font-size: 16px;
+}
+
+.footer nav{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer nav a{
+  color: #8987A1;
+  font-size: 16px;
+}
