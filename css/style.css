@@ -138,3 +138,55 @@ header .hero {
 .action img {
   border-radius: 48px;
 }
+
+
+
+
+
+
+
+
+
+
+/* ------Users----- */
+.users {
+  margin-top: 116px;
+  background-color: #e5e7ff;
+  border-radius: 24px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.users .title {
+  color: var(--secondaryColor);
+  font-weight: bold;
+  font-size: 38px;
+}
+
+.users .users-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 158px;
+}
+
+.users-count .count {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.count h6 {
+  color: var(--primaryColor);
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.count span {
+  color: rgba(0, 0, 0, 0.5);
+}
