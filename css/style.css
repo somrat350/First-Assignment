@@ -94,3 +94,47 @@ header .hero {
   font-weight: bold;
   color: var(--secondaryColor);
 } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------Action---------- */
+.action {
+  margin-top: 116px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-left {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.action-left .title {
+  color: var(--secondaryColor);
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.action-left .desc {
+  font-size: 24px;
+  color: #252432;
+}
+
+.action img {
+  border-radius: 48px;
+}
