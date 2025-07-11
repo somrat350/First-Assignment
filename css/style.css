@@ -190,3 +190,91 @@ header .hero {
 .count span {
   color: rgba(0, 0, 0, 0.5);
 }
+
+
+
+
+
+
+
+
+
+/* -----Feedback----- */
+.feedback {
+  margin-top: 116px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.feedback .title {
+  color: var(--secondaryColor);
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.feedback .card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+
+  border: 1px solid #e5e7ff;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.card .star {
+  display: flex;
+  gap: 4px;
+}
+
+.star img {
+  width: 20px;
+  height: 20px;
+}
+
+.card-text h6 {
+  color: var(--secondaryColor);
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.card-text p {
+  font-size: 18px;
+  color: #1e1e1e;
+  margin-top: 8px;
+}
+
+.card .author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.author img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.author-detail h6 {
+  color: #757575;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.author-detail span {
+  color: #757575;
+  font-size: 16px;
+}
