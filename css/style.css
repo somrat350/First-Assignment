@@ -288,6 +288,12 @@ header .hero {
 
 
 
+
+
+
+
+
+
 /* -----Focus---- */
 .focus{
   margin-top: 116px;
@@ -312,4 +318,74 @@ header .hero {
 
 .focus img{
   border-radius: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----Message section-------- */
+.message{
+  margin-top: 116px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 110px;
+}
+
+.message h6{
+  color: var(--secondaryColor);
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.message form{
+  width: 500px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 19px;
+}
+
+.message form .input-group{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-group label{
+  font-size: 18px;
+  color: var(--secondaryColor);
+  font-weight: 600;
+}
+
+.input-group input,
+.input-group textarea{
+  font-size: 20px;
+  padding: 20px 32px;
+  border: 1px solid #75757557;
+  border-radius: 10px;
+}
+
+.input-group textarea{
+  resize: none;
+}
+
+.input-group button{
+  border: none;
+  outline: none;
+  width: 100%;
 }
